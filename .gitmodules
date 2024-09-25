@@ -1,0 +1,18 @@
+[submodule "black-parrot"]
+	path = black-parrot
+	url = https://github.com/black-parrot/black-parrot.git
+[submodule "cv32e40p"]
+	path = cv32e40p
+	url = https://github.com/openhwgroup/cv32e40p.git
+[submodule "ibex"]
+	path = ibex
+	url = https://github.com/lowRISC/ibex.git
+[submodule "opentitan"]
+	path = opentitan
+	url = https://github.com/lowRISC/opentitan.git
+[submodule "rsd"]
+	path = rsd
+	url = https://github.com/rsd-devel/rsd.git
+[submodule "bsc-core_tile"]
+	path = bsc-core_tile
+	url = https://github.com/bsc-loca/core_tile.git
