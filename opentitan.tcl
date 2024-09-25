@@ -1,7 +1,7 @@
 yosys -import
-exec -- fusesoc --cores-root opentitan run --flag=fileset_top --target=syn --setup lowrisc:systems:top_earlgrey
+exec -- fusesoc --build-root opentitan/build/ --cores-root opentitan run --flag=fileset_top --target=syn --setup lowrisc:systems:top_earlgrey
 read_slang \
--F opentitan/build/lowrisc_systems_top_earlgrey_0.1/syn-icarus/lowrisc_systems_top_earlgrey_0.1.scr \
+-F opentitan/build/syn-icarus/lowrisc_systems_top_earlgrey_0.1.scr \
 --top top_earlgrey \
 --keep-hierarchy \
 --ignore-initial \
