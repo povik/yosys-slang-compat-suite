@@ -5,6 +5,7 @@ read_slang \
 --top top_earlgrey \
 --keep-hierarchy \
 --ignore-initial \
+-Wno-error=range-oob \
 -D ASSERT(a,b)= \
 -D ASSUME(a,b)= \
 -D ASSERT_INIT(a,b)= \
